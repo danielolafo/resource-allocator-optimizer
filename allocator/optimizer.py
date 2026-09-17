@@ -140,6 +140,20 @@ class OptimizationResult:
         }
 
 
+def _normalize_to_full_time(assignment: Assignment) -> Assignment:
+    """Clamp every emitted assignment to 8 hours/day (full time)."""
+    return Assignment(
+        id=assignment.id,
+        employeeId=assignment.employeeId,
+        projectId=assignment.projectId,
+        mode=AssignmentMode.FULL_TIME,
+        hoursPerDay=FULL_TIME_HOURS,
+        startDate=assignment.startDate,
+        endDate=assignment.endDate,
+        notes=assignment.notes,
+    )
+
+
 # ---------------------------------------------------------------------------
 # Optimizer
 # ---------------------------------------------------------------------------
@@ -402,6 +416,7 @@ def optimize(problem: AllocationProblem) -> OptimizationResult:
             next_id += 1
             final_assignments.append(b.assignment)
     final_assignments.sort(key=lambda x: (x.employeeId, x.startDate))
+    final_assignments = [_normalize_to_full_time(a) for a in final_assignments]
 
     # ------------------------------------------------------------------
     # Metrics
