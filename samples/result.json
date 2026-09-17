@@ -1,0 +1,163 @@
+{
+  "assignments": [
+    {
+      "id": 1,
+      "employeeId": 1,
+      "projectId": 1,
+      "mode": "FULL_TIME",
+      "hoursPerDay": 8.0,
+      "startDate": "2026-08-27",
+      "endDate": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "employeeId": 1,
+      "projectId": 1,
+      "mode": "FULL_TIME",
+      "hoursPerDay": 8.0,
+      "startDate": "2026-10-27",
+      "endDate": "2027-01-14",
+      "notes": "auto-assigned"
+    },
+    {
+      "id": 4,
+      "employeeId": 2,
+      "projectId": 1,
+      "mode": "FULL_TIME",
+      "hoursPerDay": 8.0,
+      "startDate": "2026-09-16",
+      "endDate": "2027-01-14",
+      "notes": "auto-assigned"
+    },
+    {
+      "id": 2,
+      "employeeId": 3,
+      "projectId": 2,
+      "mode": "FULL_TIME",
+      "hoursPerDay": 8.0,
+      "startDate": "2026-09-06",
+      "endDate": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "employeeId": 3,
+      "projectId": 2,
+      "mode": "FULL_TIME",
+      "hoursPerDay": 8.0,
+      "startDate": "2026-10-12",
+      "endDate": "2026-12-15",
+      "notes": "auto-assigned"
+    },
+    {
+      "id": 6,
+      "employeeId": 4,
+      "projectId": 2,
+      "mode": "FULL_TIME",
+      "hoursPerDay": 8.0,
+      "startDate": "2026-09-16",
+      "endDate": "2026-12-15",
+      "notes": "auto-assigned"
+    },
+    {
+      "id": 7,
+      "employeeId": 5,
+      "projectId": 1,
+      "mode": "FULL_TIME",
+      "hoursPerDay": 8.0,
+      "startDate": "2026-09-16",
+      "endDate": "2027-01-14",
+      "notes": "auto-assigned"
+    },
+    {
+      "id": 9,
+      "employeeId": 6,
+      "projectId": 2,
+      "mode": "FULL_TIME",
+      "hoursPerDay": 8.0,
+      "startDate": "2026-09-16",
+      "endDate": "2026-09-30",
+      "notes": "auto-assigned"
+    },
+    {
+      "id": 8,
+      "employeeId": 6,
+      "projectId": 4,
+      "mode": "FULL_TIME",
+      "hoursPerDay": 8.0,
+      "startDate": "2026-10-01",
+      "endDate": "2026-11-30",
+      "notes": "auto-assigned"
+    },
+    {
+      "id": 10,
+      "employeeId": 6,
+      "projectId": 2,
+      "mode": "FULL_TIME",
+      "hoursPerDay": 8.0,
+      "startDate": "2026-12-01",
+      "endDate": "2026-12-15",
+      "notes": "auto-assigned"
+    },
+    {
+      "id": 11,
+      "employeeId": 7,
+      "projectId": 5,
+      "mode": "FULL_TIME",
+      "hoursPerDay": 8.0,
+      "startDate": "2026-10-16",
+      "endDate": "2026-11-15",
+      "notes": "auto-assigned"
+    },
+    {
+      "id": 12,
+      "employeeId": 8,
+      "projectId": 3,
+      "mode": "FULL_TIME",
+      "hoursPerDay": 8.0,
+      "startDate": "2026-09-21",
+      "endDate": "2026-10-31",
+      "notes": "auto-assigned"
+    }
+  ],
+  "summary": {
+    "today": "2026-09-16",
+    "horizonEnd": "2027-01-14",
+    "totalEmployees": 8,
+    "totalProjects": 5,
+    "occupiedEmployees": 8,
+    "idleEmployees": 0,
+    "totalAssignedDays": 708,
+    "averageUtilization": 0.7571,
+    "utilization": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 0.9579,
+      "4": 0.7521,
+      "5": 1.0,
+      "6": 0.7521,
+      "7": 0.2562,
+      "8": 0.3388
+    },
+    "totalProfit": 1170930.0,
+    "employeeDaysAvailable": {
+      "1": 80,
+      "2": 121,
+      "3": 95,
+      "4": 121,
+      "5": 121,
+      "6": 121,
+      "7": 121,
+      "8": 121
+    },
+    "perProjectDays": {
+      "1": 363,
+      "2": 212,
+      "3": 41,
+      "4": 61,
+      "5": 31
+    }
+  },
+  "warnings": []
+}

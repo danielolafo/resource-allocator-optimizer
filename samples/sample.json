@@ -1,0 +1,456 @@
+{
+  "technologies": [
+    {
+      "id": 1,
+      "name": "TypeScript",
+      "category": "Language",
+      "version": "5.4",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "Angular",
+      "category": "Framework",
+      "version": "18.2",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "name": "React",
+      "category": "Framework",
+      "version": "18.3",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "name": "Node.js",
+      "category": "Runtime",
+      "version": "20.11",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "name": "Python",
+      "category": "Language",
+      "version": "3.12",
+      "description": ""
+    },
+    {
+      "id": 6,
+      "name": "SQL",
+      "category": "Database",
+      "version": "15",
+      "description": ""
+    },
+    {
+      "id": 7,
+      "name": "Java",
+      "category": "Language",
+      "version": "21",
+      "description": ""
+    },
+    {
+      "id": 8,
+      "name": "Docker",
+      "category": "DevOps",
+      "version": "26",
+      "description": ""
+    },
+    {
+      "id": 9,
+      "name": "AWS",
+      "category": "Cloud",
+      "version": "2024",
+      "description": ""
+    },
+    {
+      "id": 10,
+      "name": "Kubernetes",
+      "category": "DevOps",
+      "version": "1.30",
+      "description": ""
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "Ana",
+      "lastName": "García",
+      "email": "ana.garcia@corp.com",
+      "position": "Senior Frontend",
+      "hireDate": "2020-03-01",
+      "technologies": [
+        {
+          "technologyId": 2,
+          "level": "EXPERT",
+          "version": "18.2",
+          "yearsExperience": 5.0
+        },
+        {
+          "technologyId": 1,
+          "level": "ADVANCED",
+          "version": "5.4",
+          "yearsExperience": 5.0
+        },
+        {
+          "technologyId": 4,
+          "level": "INTERMEDIATE",
+          "version": "20.11",
+          "yearsExperience": 3.0
+        }
+      ],
+      "costPerDay": 350.0
+    },
+    {
+      "id": 2,
+      "firstName": "Luis",
+      "lastName": "Pérez",
+      "email": "luis.perez@corp.com",
+      "position": "Fullstack",
+      "hireDate": "2021-07-12",
+      "technologies": [
+        {
+          "technologyId": 1,
+          "level": "ADVANCED",
+          "version": "5.4",
+          "yearsExperience": 4.0
+        },
+        {
+          "technologyId": 4,
+          "level": "ADVANCED",
+          "version": "20.11",
+          "yearsExperience": 4.0
+        },
+        {
+          "technologyId": 6,
+          "level": "INTERMEDIATE",
+          "version": "15",
+          "yearsExperience": 3.0
+        }
+      ],
+      "costPerDay": 280.0
+    },
+    {
+      "id": 3,
+      "firstName": "María",
+      "lastName": "López",
+      "email": "maria.lopez@corp.com",
+      "position": "Backend",
+      "hireDate": "2019-11-05",
+      "technologies": [
+        {
+          "technologyId": 5,
+          "level": "EXPERT",
+          "version": "3.12",
+          "yearsExperience": 6.0
+        },
+        {
+          "technologyId": 6,
+          "level": "ADVANCED",
+          "version": "15",
+          "yearsExperience": 6.0
+        },
+        {
+          "technologyId": 8,
+          "level": "INTERMEDIATE",
+          "version": "26",
+          "yearsExperience": 2.0
+        },
+        {
+          "technologyId": 9,
+          "level": "INTERMEDIATE",
+          "version": "2024",
+          "yearsExperience": 2.0
+        }
+      ],
+      "costPerDay": 320.0
+    },
+    {
+      "id": 4,
+      "firstName": "Carlos",
+      "lastName": "Ruíz",
+      "email": "carlos.ruiz@corp.com",
+      "position": "ML Engineer",
+      "hireDate": "2022-02-15",
+      "technologies": [
+        {
+          "technologyId": 5,
+          "level": "ADVANCED",
+          "version": "3.12",
+          "yearsExperience": 4.0
+        },
+        {
+          "technologyId": 9,
+          "level": "INTERMEDIATE",
+          "version": "2024",
+          "yearsExperience": 2.0
+        },
+        {
+          "technologyId": 6,
+          "level": "INTERMEDIATE",
+          "version": "15",
+          "yearsExperience": 3.0
+        }
+      ],
+      "costPerDay": 380.0
+    },
+    {
+      "id": 5,
+      "firstName": "Sofía",
+      "lastName": "Martínez",
+      "email": "sofia.martinez@corp.com",
+      "position": "Frontend",
+      "hireDate": "2023-05-20",
+      "technologies": [
+        {
+          "technologyId": 3,
+          "level": "ADVANCED",
+          "version": "18.3",
+          "yearsExperience": 3.0
+        },
+        {
+          "technologyId": 1,
+          "level": "INTERMEDIATE",
+          "version": "5.4",
+          "yearsExperience": 2.0
+        }
+      ],
+      "costPerDay": 220.0
+    },
+    {
+      "id": 6,
+      "firstName": "Diego",
+      "lastName": "Sánchez",
+      "email": "diego.sanchez@corp.com",
+      "position": "DevOps",
+      "hireDate": "2021-09-08",
+      "technologies": [
+        {
+          "technologyId": 8,
+          "level": "ADVANCED",
+          "version": "26",
+          "yearsExperience": 4.0
+        },
+        {
+          "technologyId": 10,
+          "level": "INTERMEDIATE",
+          "version": "1.30",
+          "yearsExperience": 2.0
+        },
+        {
+          "technologyId": 9,
+          "level": "ADVANCED",
+          "version": "2024",
+          "yearsExperience": 3.0
+        }
+      ],
+      "costPerDay": 310.0
+    },
+    {
+      "id": 7,
+      "firstName": "Laura",
+      "lastName": "Torres",
+      "email": "laura.torres@corp.com",
+      "position": "Java Engineer",
+      "hireDate": "2018-04-02",
+      "technologies": [
+        {
+          "technologyId": 7,
+          "level": "EXPERT",
+          "version": "21",
+          "yearsExperience": 7.0
+        },
+        {
+          "technologyId": 6,
+          "level": "ADVANCED",
+          "version": "15",
+          "yearsExperience": 6.0
+        },
+        {
+          "technologyId": 8,
+          "level": "BEGINNER",
+          "version": "26",
+          "yearsExperience": 1.0
+        }
+      ],
+      "costPerDay": 330.0
+    },
+    {
+      "id": 8,
+      "firstName": "Javier",
+      "lastName": "Mendoza",
+      "email": "javier.mendoza@corp.com",
+      "position": "Frontend Junior",
+      "hireDate": "2024-01-15",
+      "technologies": [
+        {
+          "technologyId": 2,
+          "level": "INTERMEDIATE",
+          "version": "18.2",
+          "yearsExperience": 1.0
+        },
+        {
+          "technologyId": 1,
+          "level": "BEGINNER",
+          "version": "5.4",
+          "yearsExperience": 1.0
+        }
+      ],
+      "costPerDay": 180.0
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Portal Bancario",
+      "description": "Portal web del banco",
+      "client": "Banco Central",
+      "status": "ACTIVE",
+      "startDate": "2026-08-27",
+      "endDate": "2027-01-14",
+      "requiredTechnologies": [
+        {
+          "technologyId": 2,
+          "version": "18.2",
+          "minLevel": "ADVANCED",
+          "minYearsExperience": 2.0,
+          "count": 2
+        },
+        {
+          "technologyId": 1,
+          "version": "5.4",
+          "minLevel": "INTERMEDIATE",
+          "minYearsExperience": 1.0,
+          "count": 2
+        }
+      ],
+      "dailyRate": 1800.0
+    },
+    {
+      "id": 2,
+      "name": "Motor de Riesgo",
+      "description": "Motor de scoring crediticio",
+      "client": "FinanzaPlus",
+      "status": "ACTIVE",
+      "startDate": "2026-09-06",
+      "endDate": "2026-12-15",
+      "requiredTechnologies": [
+        {
+          "technologyId": 5,
+          "version": "3.12",
+          "minLevel": "ADVANCED",
+          "minYearsExperience": 3.0,
+          "count": 2
+        },
+        {
+          "technologyId": 9,
+          "version": "2024",
+          "minLevel": "INTERMEDIATE",
+          "minYearsExperience": 1.0,
+          "count": 1
+        }
+      ],
+      "dailyRate": 2200.0
+    },
+    {
+      "id": 3,
+      "name": "App Retail",
+      "description": "App e-commerce de retail",
+      "client": "TiendaMax",
+      "status": "ACTIVE",
+      "startDate": "2026-09-21",
+      "endDate": "2026-10-31",
+      "requiredTechnologies": [
+        {
+          "technologyId": 3,
+          "version": "18.3",
+          "minLevel": "INTERMEDIATE",
+          "minYearsExperience": 1.0,
+          "count": 1
+        },
+        {
+          "technologyId": 1,
+          "version": "5.4",
+          "minLevel": "BEGINNER",
+          "minYearsExperience": 0.0,
+          "count": 1
+        }
+      ],
+      "dailyRate": 1500.0
+    },
+    {
+      "id": 4,
+      "name": "Migración Cloud",
+      "description": "Migración a AWS/K8s",
+      "client": "LogiCorp",
+      "status": "PLANNED",
+      "startDate": "2026-10-01",
+      "endDate": "2026-11-30",
+      "requiredTechnologies": [
+        {
+          "technologyId": 8,
+          "version": "26",
+          "minLevel": "ADVANCED",
+          "minYearsExperience": 2.0,
+          "count": 1
+        },
+        {
+          "technologyId": 10,
+          "version": "1.30",
+          "minLevel": "INTERMEDIATE",
+          "minYearsExperience": 0.0,
+          "count": 1
+        }
+      ],
+      "dailyRate": 2600.0
+    },
+    {
+      "id": 5,
+      "name": "Mantenimiento Core",
+      "description": "Soporte sistemas legados",
+      "client": "CoreSeguros",
+      "status": "ACTIVE",
+      "startDate": "2026-10-16",
+      "endDate": "2026-11-15",
+      "requiredTechnologies": [
+        {
+          "technologyId": 7,
+          "version": "21",
+          "minLevel": "ADVANCED",
+          "minYearsExperience": 3.0,
+          "count": 1
+        },
+        {
+          "technologyId": 6,
+          "version": "15",
+          "minLevel": "INTERMEDIATE",
+          "minYearsExperience": 0.0,
+          "count": 1
+        }
+      ],
+      "dailyRate": 1400.0
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "employeeId": 1,
+      "projectId": 1,
+      "mode": "FULL_TIME",
+      "hoursPerDay": 8.0,
+      "startDate": "2026-08-27",
+      "endDate": "2026-10-26",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "employeeId": 3,
+      "projectId": 2,
+      "mode": "FULL_TIME",
+      "hoursPerDay": 8.0,
+      "startDate": "2026-09-06",
+      "endDate": "2026-10-11",
+      "notes": ""
+    }
+  ]
+}
