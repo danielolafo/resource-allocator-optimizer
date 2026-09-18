@@ -160,6 +160,29 @@ class TestOptimizer(unittest.TestCase):
         res = self._run([emp], [proj])
         self.assertEqual(len(res.assignments), 0)
 
+    def test_null_count_treated_as_one(self):
+        # The backend seeds requirement `count` as null (unset);
+        # the optimizer must accept it and fall back to a single slot.
+        data = {
+            "projects": [{
+                "id": 1,
+                "name": "P1",
+                "startDate": TODAY.isoformat(),
+                "endDate": (TODAY + timedelta(days=5)).isoformat(),
+                "requiredTechnologies": [
+                    {"technologyId": 1, "version": "18.2", "count": None}
+                ],
+            }]
+        }
+        parsed = OptimizationInput.model_validate(data)
+        req = parsed.projects[0].requiredTechnologies[0]
+        self.assertEqual(req.count, 1)
+
+        emp = _employee(1, [_tech(1, "18.2")])
+        proj = _project(1, TODAY, TODAY + timedelta(days=5), [_req(1, "18.2", count=1)])
+        res = self._run([emp], [proj])
+        self.assertEqual(len(res.assignments), 1)
+
 
 class TestSample(unittest.TestCase):
     def test_sample_runs(self):

@@ -13,7 +13,7 @@ from datetime import date
 from enum import Enum
 from typing import Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 
 class ProficiencyLevel(str, Enum):
@@ -66,6 +66,11 @@ class ProjectTechnologyRequirement(BaseModel):
     minLevel: ProficiencyLevel = ProficiencyLevel.BEGINNER
     minYearsExperience: float = 0
     count: int = 1
+
+    @field_validator("count", mode="before")
+    @classmethod
+    def _count_or_default(cls, v: object) -> int:
+        return 1 if v is None else v
 
 
 class Project(BaseModel):
